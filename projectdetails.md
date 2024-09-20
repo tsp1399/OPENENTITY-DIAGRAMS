@@ -1,7 +1,7 @@
 # OpenEntities
 
 ## Overview
-**OpenEntities** is an open-source project initiated by **TMS Financial** and **Causbrook Consulting** with the goal of revolutionizing how accountants and financial professionals visualize and manage complex entity structures. This project provides a library of pre-built, customizable mermaid markdown templates for common entity setups such as Business Entities, SMSFs, and Family Trusts. These templates are designed to be accurate, easy to use, and tailored specifically for the accounting and legal industries.
+**OpenEntities** is an open-source project initiated by **TMS Financial** and **Causbrooks** with the goal of revolutionizing how accountants and financial professionals visualize and manage complex entity structures. This project provides a library of pre-built, customizable mermaid markdown templates for common entity setups such as Business Entities, SMSFs, and Family Trusts. These templates are designed to be accurate, easy to use, and tailored specifically for the accounting and legal industries.
 
 ## Project Vision
 Our vision is to empower accounting and financial firms to efficiently manage and visualize complex entity structures, enhancing client service delivery and operational effectiveness through standardized, high-quality diagramming tools.
