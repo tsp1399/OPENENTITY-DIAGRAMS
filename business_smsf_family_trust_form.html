@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entity Naming Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        form {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Entity Naming Form</h1>
+    <form>
+        <label for="clientGroupName">Client Group Name:</label>
+        <input type="text" id="clientGroupName" name="clientGroupName" required>
+
+        <label for="husbandName">Husband's Name:</label>
+        <input type="text" id="husbandName" name="husbandName" required>
+
+        <label for="wifeName">Wife's Name:</label>
+        <input type="text" id="wifeName" name="wifeName" required>
+
+        <label for="familyTrustName">Family Trust Name:</label>
+        <input type="text" id="familyTrustName" name="familyTrustName" required>
+
+        <label for="familyTrustTrusteeName">Family Trust Trustee Company Name:</label>
+        <input type="text" id="familyTrustTrusteeName" name="familyTrustTrusteeName" required>
+
+        <label for="smsfTrusteeName">SMSF Trustee Company Name:</label>
+        <input type="text" id="smsfTrusteeName" name="smsfTrusteeName" required>
+
+        <label for="tradingBusinessName">Trading Business Company Name:</label>
+        <input type="text" id="tradingBusinessName" name="tradingBusinessName" required>
+
+        <label for="smsfName">Self-Managed Superannuation Fund (SMSF) Name:</label>
+        <input type="text" id="smsfName" name="smsfName" required>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
